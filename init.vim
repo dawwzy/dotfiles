@@ -3,7 +3,7 @@ set mouse=a
 set number
 set relativenumber
 set ruler
-set cc=72
+set cc=80
 set tabstop=4 shiftwidth=4 expandtab
 set splitbelow          " Horizontal split below current.
 set splitright          " Vertical split to right of current.
@@ -20,6 +20,3 @@ set smartcase                   " but not when search pattern contains upper cas
 call plug#begin(stdpath('data') . '/plugged')
 Plug 'JuliaEditorSupport/julia-vim'
 call plug#end()
-
-hi Visual ctermbg=255 guibg=DarkGrey " Make visual selection more apparent. 
-hi StatusLine     ctermfg=White ctermbg=237 cterm=bold,reverse
