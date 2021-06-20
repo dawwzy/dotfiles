@@ -5,8 +5,8 @@ set relativenumber
 set ruler
 set cc=80
 set tabstop=4 shiftwidth=4 expandtab
-set splitbelow          " Horizontal split below current.
-set splitright          " Vertical split to right of current.
+set splitbelow                  " Horizontal split below current.
+set splitright                  " Vertical split to right of current.
 set showcmd                     " Show me what I'm typing.
 set showmode                    " Show current mode.
 set noswapfile                  " Don't use swapfile.
